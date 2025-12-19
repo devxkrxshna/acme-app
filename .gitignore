@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.mypy_cache
+.dmypy.json
+.pytest_cache
+.ruff_cache
+
+# Virtual environment (uv)
+.venv/
+
+# uv lock file (optional — some prefer to commit it)
+# uv.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.sqlite3
+*.db
+
+# Uploaded files (later)
+uploads/
+temp_uploads/
+
+# Celery
+celerybeat.pid
+celeryd.pid
